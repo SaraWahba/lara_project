@@ -1,0 +1,17 @@
+.de{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 60px;
+}
+
+.department{
+    margin-top: 90px;
+    text-align: center;
+}
+.department label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.department input{
+    width: 400px;
+}

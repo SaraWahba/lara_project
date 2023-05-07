@@ -1,0 +1,38 @@
+.data-table{
+    padding: 40px;
+    margin-top: 50px;
+}
+.student-data{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    color: white;
+    background-color: rgba(0, 65, 95, 0.759);
+}
+.student-data table{
+    width: 600px;
+    text-align: center;
+    padding: 70px;
+    border: 3px solid rgb(8, 35, 37);
+}
+.student-data table td,th{
+    border: 2px solid rgb(8, 35, 37);
+    padding: 5px;
+}
+.delete{
+    color: red;
+    text-decoration: none;
+}
+.btn-link{
+    border: none;
+}
+.update{
+    color: green;
+    
+}
+.action{
+    display: flex;
+    justify-content: space-evenly;
+}
