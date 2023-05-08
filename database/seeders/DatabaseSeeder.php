@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Subject;
 use App\Models\Department;
 use Illuminate\Database\Seeder;
 
@@ -28,5 +29,7 @@ class DatabaseSeeder extends Seeder
         //     'name'=>'Information Technology',
         //     'code'=>'IT'
         //   ]);
+
+        // Subject::factory(100)->create();
     }
 }

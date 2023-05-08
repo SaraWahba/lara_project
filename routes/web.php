@@ -4,6 +4,7 @@ use App\Http\Controllers\DepartmentController;
 use App\Models\Department;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StaticController;
+use App\Http\Controllers\SubjectController;
 use Illuminate\Http\Request;
 
 /*
@@ -39,4 +40,9 @@ Route::get('/',function(){
 //    dd($request);
 // });
 
+Route::get('/subject',function () {
+    return view('subjects.create');
+});
 Route::resource('/department',DepartmentController::class);
+
+Route::resource('/subjects',SubjectController::class);

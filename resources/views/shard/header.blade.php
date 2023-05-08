@@ -18,7 +18,7 @@
         <nav class="navbar">
             <ul>
                 <li><a href="{{route('department.create')}}">Department</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="{{route('subjects.create')}}">Subject</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Contact</a></li>
              </ul>
@@ -27,6 +27,7 @@
     @yield('create_department')
     @yield('show_department')
     @yield('edit_department')
+
 
 </body>
 </html>

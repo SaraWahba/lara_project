@@ -1,6 +1,6 @@
 .data-table{
     padding: 40px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .student-data{
     color: black;
@@ -35,4 +35,11 @@
 .action{
     display: flex;
     justify-content: space-evenly;
+}
+.su{
+    text-decoration: none;
+}
+.style{
+   margin-left: 380px;
+    width: 500px;
 }

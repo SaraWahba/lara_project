@@ -5,7 +5,7 @@
 }
 
 .department{
-    margin-top: 90px;
+    margin-top: 50px;
     text-align: center;
 }
 .department label{
@@ -13,5 +13,9 @@
     font-weight: bold;
 }
 .department input{
+    width: 400px;
+}
+
+select{
     width: 400px;
 }
